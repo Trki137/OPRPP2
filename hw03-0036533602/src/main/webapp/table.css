@@ -1,0 +1,35 @@
+body{
+    font-family: sans-serif;
+}
+table{
+    margin: auto;
+    border-collapse: collapse;
+    border:1px solid black;
+    text-align: center;
+    vertical-align: middle;
+}
+
+th,td{
+    border:1px solid black;
+    padding: 8px;
+}
+
+thead th{
+    width: 25%;
+}
+
+thead{
+    background-color: #333;
+    color: white;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #eee;
+}

@@ -1,0 +1,86 @@
+.blog-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.blog-data{
+    width: 60%;
+    padding: 10px 25px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0 6px 24px 0, rgba(0, 0, 0, 0.08) 0 0 0 1px;
+
+}
+
+.blog-created-by,
+.comment-created-by{
+    color: lightseagreen;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.blog-date,
+.comment-date{
+    color: lightslategray;
+    font-size: 0.65rem;
+    margin-top: 2px;
+}
+
+.blog-group,
+.comment-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+.blog-title{
+    font-size: 1.5rem;
+    margin-bottom: 3px;
+}
+.blog-text{
+    padding-left: 20px;
+    padding-top:10px;
+}
+
+.blog-comments{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.blog-comment{
+    width: 50%;
+    padding: 10px 25px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0 6px 24px 0, rgba(0, 0, 0, 0.08) 0 0 0 1px;
+    margin-top: 20px;
+    background-color: aliceblue;
+    color: black;
+}
+
+.blog-add-comment{
+    width: 100%;
+}
+.blog-add-comment .input-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.blog-add-comment form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.blog-add-comment .input-container textarea{
+    width: 100%;
+}
+.blog-add-comment .btn{
+    margin-left: auto;
+    margin-top: 10px;
+}

@@ -1,0 +1,17 @@
+{$= "text/html" @setMimeType $}
+<html>
+ <head>
+ <title>Home page</title>
+ <style>
+    body {background-color: {$= "background" "0" @tparamGet $}}
+ </style>
+ </head>
+ <body>
+    <h1>Hello world</h1>
+    <a href="./scripts/osnovni.smscr">osnovni.smscr</a>
+    <a href="./scripts/brojPoziva.smscr">brojPoziva.smscr</a>
+    <a href="./scripts/fibonaccih.smscr>fibonaccih.smscr</a>
+    <a href="./hello">HelloWorker</a>
+    <a href="./cw">CircleWorker</a>
+ </body>
+</html>

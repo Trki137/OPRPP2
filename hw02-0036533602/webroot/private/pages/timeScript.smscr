@@ -1,0 +1,12 @@
+{$= "text/html" @setMimeType $}
+<html>
+ <head>
+ <title>Choose background</title>
+ <style>
+    body{ background-image: url("{$= "imageUrl" "0" @tparamGet $}");}
+ </style>
+ </head>
+ <body>
+ <h1>{$= "time" "0" @tparamGet $}</h1>
+ </body>
+</html>

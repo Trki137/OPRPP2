@@ -1,0 +1,16 @@
+{$= "text/html" @setMimeType $}
+<html>
+ <head>
+ <title>Background</title>
+ </head>
+ <body>
+    <a href="/mi/vrijeme">Time</a>
+         <form action="/mi/vrijeme" method="get">
+                 <select name="imageUrl">
+                     <option value="{$= "image1" "0" @tparamGet $}">Image 1</option>
+                     <option value="{$= "image2" "0" @tparamGet $}">Image 2</option>
+                     <input type = "submit" />
+                 </select>
+             </form>
+ </body>
+</html>
